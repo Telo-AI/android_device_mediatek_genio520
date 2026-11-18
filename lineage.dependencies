@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_device_mediatek_mt8189-common",
+    "target_path": "device/mediatek/mt8189-common"
+  },
+  {
+    "repository": "android_device_mediatek_genio520-kernels",
+    "target_path": "device/mediatek/genio520-kernels"
+  }
+]
