@@ -23,3 +23,6 @@ PRODUCT_SOONG_NAMESPACES += \
     device/mediatek/genio520
 
 $(call inherit-product, device/mediatek/mt8189-common/mt8189.mk)
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/mediatek/genio520/genio520-vendor.mk)
