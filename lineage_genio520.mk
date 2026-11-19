@@ -15,6 +15,6 @@ PRODUCT_BRAND := MediaTek
 PRODUCT_MODEL := Genio 520 EVK
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sys_mssi_aiot_64_cn_armv82_wifi-userdebug 15 AP3A.240905.015.A2 61497 test-keys" \
-    BuildFingerprint=alps/vnd_aiot8391p2_64_bsp/aiot8391p2_64_bsp:15/AP3A.240905.015.A2/61497:userdebug/test-keys \
+    BuildDesc="sys_mssi_aiot_64_cn_armv82_wifi-user 16 BP2A.250605.031.A3 mp5V445 dev-keys" \
+    BuildFingerprint=alps/vnd_aiot8391p2_64_bsp/aiot8391p2_64_bsp:16/BP2A.250605.031.A3/mp5V445:user/dev-keys \
     DeviceProduct=aiot8391p2_64_bsp
