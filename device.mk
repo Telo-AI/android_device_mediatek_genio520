@@ -18,6 +18,10 @@ $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-hea
 PRODUCT_PACKAGES += \
     FrameworkOverlayGenio520
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    device/mediatek/genio520/configs/permissions/excluded_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/excluded_hardware.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/mediatek/genio520
